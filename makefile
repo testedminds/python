@@ -8,6 +8,8 @@ latest = $(img):latest
 
 dev: stop build
 
+release: build test push git-tag
+
 build:
 	docker build -t $(latest) .
 
