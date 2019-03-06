@@ -1,4 +1,4 @@
-FROM python:3.6.1
+FROM python:3.7.2-stretch
 MAINTAINER Bobby Norton <bobby@testedminds.com>
 LABEL Description="Base image for Python projects from Tested Minds"
 
